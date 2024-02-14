@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: #f2f2f2;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+html {
+  background: white;
+  line-height: unset;
+  font-family: unset;
+}
+
+@media (max-width: 720px) {
+  pre {
+    width: calc(100vw - 110px);
+  }
+}
+
+pre:has(div.codeblock) {
+  padding: 0;
+}
+
+.card {
+  background-color: #E4E4E4;
+}
+
+.link-color {
+  color: #9ED5C0
+
+}
+
+/* Define base styles for your div */
+.myResponsiveDiv {
+  background-size: 111.5% 117.22%;
+  background-position: -50.03px -36.1px;
+}
+
+
+.session {
+  background: #425BA9;
+}
+
+.barRed{
+  background: #EC5A7B;
+}
+
+.barBlue {
+  background: #556BB1;
+}
+
+.barGreen {
+  background: #9ED5C0;
+}
+/* Adjust for Small screens (>= 640px) */
+@media (min-width: 640px) {
+  .myResponsiveDiv {
+    background-size: 105% 112%;
+    background-position: -40px -30px;
+  }
+}
+
+/* Adjust for Medium screens (>= 768px) */
+@media (min-width: 768px) {
+  .myResponsiveDiv {
+    background-size: 107% 113%;
+    background-position: -45px -33px;
+  }
+}
+
+/* Adjust for Large screens (>= 1024px) */
+@media (min-width: 1024px) {
+  .myResponsiveDiv {
+    background-size: 109% 115%;
+    background-position: -48px -35px;
+  }
+}
+
+/* Adjust for Extra large screens (>= 1280px) */
+@media (min-width: 1280px) {
+  .myResponsiveDiv {
+    background-size: 110% 116%;
+    background-position: -49px -36px;
+  }
+}
+
+/* Adjust for 2XL screens (>= 1536px) */
+@media (min-width: 1536px) {
+  .myResponsiveDiv {
+    background-size: 111.5% 117.22%;
+    background-position: -50.03px -36.1px;
+  }
+}
